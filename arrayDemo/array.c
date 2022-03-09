@@ -42,3 +42,42 @@ void mySort(int data[])
         }
     }
 }
+
+void itob(unsigned number, char *output, unsigned base)
+{
+    int i = SIZE-1;
+
+    memset(output,' ',SIZE);
+
+    while(number!=0){
+        if (number%base<=9){
+          output[i--] = number%base+'0';
+        } else {
+         output[i--] = number%base+'7';
+        }
+        number /= base;
+    }
+ }
+
+ // '\n' => "\n"
+ // '\t' => "\t"
+ void escape(char *dest, const char *src)
+ {
+     int j=0;
+
+     for (int i=0; i<strlen(src);++i){
+        switch(src[i]){
+        case '\n':
+            dest[j++] = '\\';
+            dest[j++] = 'n';
+            break;
+        case '\t':
+           dest[j++] = '\\';
+            dest[j++] = 't';
+            break;
+        default:
+            dest[j++] = src[i];
+        }
+     }
+     dest[j] = '\0';
+ }

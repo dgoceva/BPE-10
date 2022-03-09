@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
 #define SIZE 10
 
@@ -12,5 +13,8 @@ int compare(const void* a, const void* b);
 void generateData(int data[]);
 void printData(int data[]);
 void mySort(int data[]);
+
+void itob(unsigned number, char *output, unsigned base);
+void escape(char *dest, const char *src);
 
 #endif // ARRAY_H_INCLUDED
