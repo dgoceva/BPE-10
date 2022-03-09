@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646820283 source:c:\samples\bpe-10\sinx\main.c
+	"utils.h"
+
+1646822111 c:\samples\bpe-10\sinx\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1646822148 source:c:\samples\bpe-10\sinx\utils.c
+	"utils.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646823722 source:c:\samples\bpe-10\fillarray\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
