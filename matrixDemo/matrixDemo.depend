@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1647428032 source:c:\samples\bpe-10\matrixdemo\matrix.c
+	"matrix.h"
+
+1647428050 c:\samples\bpe-10\matrixdemo\matrix.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1647425347 source:c:\samples\bpe-10\matrixdemo\main.c
+	"matrix.h"
+

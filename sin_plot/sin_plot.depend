@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647429386 source:c:\samples\bpe-10\sin_plot\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Python.h>
+
