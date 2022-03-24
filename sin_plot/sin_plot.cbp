@@ -12,8 +12,13 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c11" />
 					<Add option="-g" />
+					<Add directory="C:/Python/include" />
 				</Compiler>
+				<Linker>
+					<Add library="C:/Python/libs/python310.lib" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/sin_plot" prefix_auto="1" extension_auto="1" />

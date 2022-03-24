@@ -4,3 +4,337 @@
 	<stdlib.h>
 	<Python.h>
 
+1647429314 c:\python\include\python.h
+	"patchlevel.h"
+	"pyconfig.h"
+	"pymacconfig.h"
+	<limits.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stddef.h>
+	<assert.h>
+	"pyport.h"
+	"pymacro.h"
+	"pymath.h"
+	"pymem.h"
+	"object.h"
+	"objimpl.h"
+	"typeslots.h"
+	"pyhash.h"
+	"cpython/pydebug.h"
+	"bytearrayobject.h"
+	"bytesobject.h"
+	"unicodeobject.h"
+	"longobject.h"
+	"longintrepr.h"
+	"boolobject.h"
+	"floatobject.h"
+	"complexobject.h"
+	"rangeobject.h"
+	"memoryobject.h"
+	"tupleobject.h"
+	"listobject.h"
+	"dictobject.h"
+	"cpython/odictobject.h"
+	"enumobject.h"
+	"setobject.h"
+	"methodobject.h"
+	"moduleobject.h"
+	"funcobject.h"
+	"classobject.h"
+	"fileobject.h"
+	"pycapsule.h"
+	"code.h"
+	"pyframe.h"
+	"traceback.h"
+	"sliceobject.h"
+	"cellobject.h"
+	"iterobject.h"
+	"cpython/initconfig.h"
+	"genobject.h"
+	"descrobject.h"
+	"genericaliasobject.h"
+	"warnings.h"
+	"weakrefobject.h"
+	"structseq.h"
+	"namespaceobject.h"
+	"cpython/picklebufobject.h"
+	"cpython/pytime.h"
+	"codecs.h"
+	"pyerrors.h"
+	"pythread.h"
+	"pystate.h"
+	"context.h"
+	"modsupport.h"
+	"compile.h"
+	"pythonrun.h"
+	"pylifecycle.h"
+	"ceval.h"
+	"sysmodule.h"
+	"osmodule.h"
+	"intrcheck.h"
+	"import.h"
+	"abstract.h"
+	"bltinmodule.h"
+	"eval.h"
+	"cpython/pyctype.h"
+	"pystrtod.h"
+	"pystrcmp.h"
+	"fileutils.h"
+	"cpython/pyfpe.h"
+	"tracemalloc.h"
+
+1647429314 c:\python\include\patchlevel.h
+
+1647429316 c:\python\include\pyconfig.h
+	<io.h>
+	<float.h>
+	<basetsd.h>
+	<stdio.h>
+
+1647429314 c:\python\include\pymacconfig.h
+
+1647429314 c:\python\include\pyport.h
+	"pyconfig.h"
+	<inttypes.h>
+	<stdlib.h>
+	<ieeefp.h>
+	<math.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<sys/select.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/types.h>
+	<sys/termio.h>
+	<ctype.h>
+	<wctype.h>
+	"exports.h"
+
+1647429314 c:\python\include\exports.h
+
+1647429314 c:\python\include\pymacro.h
+
+1647429314 c:\python\include\pymath.h
+	"pyconfig.h"
+
+1647429314 c:\python\include\pymem.h
+	"pyport.h"
+	"cpython/pymem.h"
+
+1647429314 c:\python\include\cpython\pymem.h
+
+1647429314 c:\python\include\object.h
+	"cpython/object.h"
+
+1647429314 c:\python\include\cpython\object.h
+
+1647429314 c:\python\include\objimpl.h
+	"pymem.h"
+	"cpython/objimpl.h"
+
+1647429314 c:\python\include\cpython\objimpl.h
+
+1647429314 c:\python\include\typeslots.h
+
+1647429314 c:\python\include\pyhash.h
+
+1647429314 c:\python\include\cpython\pydebug.h
+
+1647429314 c:\python\include\bytearrayobject.h
+	<stdarg.h>
+	"cpython/bytearrayobject.h"
+
+1647429314 c:\python\include\cpython\bytearrayobject.h
+
+1647429314 c:\python\include\bytesobject.h
+	<stdarg.h>
+	"cpython/bytesobject.h"
+
+1647429314 c:\python\include\cpython\bytesobject.h
+
+1647429314 c:\python\include\unicodeobject.h
+	<stdarg.h>
+	<ctype.h>
+	<wchar.h>
+	"cpython/unicodeobject.h"
+
+1647429314 c:\python\include\cpython\unicodeobject.h
+
+1647429314 c:\python\include\longobject.h
+
+1647429314 c:\python\include\longintrepr.h
+
+1647429314 c:\python\include\boolobject.h
+
+1647429314 c:\python\include\floatobject.h
+
+1647429314 c:\python\include\complexobject.h
+
+1647429314 c:\python\include\rangeobject.h
+
+1647429314 c:\python\include\memoryobject.h
+
+1647429314 c:\python\include\tupleobject.h
+	"cpython/tupleobject.h"
+
+1647429314 c:\python\include\cpython\tupleobject.h
+
+1647429314 c:\python\include\listobject.h
+	"cpython/listobject.h"
+
+1647429314 c:\python\include\cpython\listobject.h
+
+1647429314 c:\python\include\dictobject.h
+	"cpython/dictobject.h"
+
+1647429314 c:\python\include\cpython\dictobject.h
+
+1647429314 c:\python\include\cpython\odictobject.h
+
+1647429314 c:\python\include\enumobject.h
+
+1647429314 c:\python\include\setobject.h
+
+1647429314 c:\python\include\methodobject.h
+	"cpython/methodobject.h"
+
+1647429314 c:\python\include\cpython\methodobject.h
+
+1647429314 c:\python\include\moduleobject.h
+
+1647429314 c:\python\include\funcobject.h
+
+1647429314 c:\python\include\classobject.h
+
+1647429314 c:\python\include\fileobject.h
+	"cpython/fileobject.h"
+
+1647429314 c:\python\include\cpython\fileobject.h
+
+1647429314 c:\python\include\pycapsule.h
+
+1647429314 c:\python\include\code.h
+	"cpython/code.h"
+
+1647429314 c:\python\include\cpython\code.h
+
+1647429314 c:\python\include\pyframe.h
+
+1647429314 c:\python\include\traceback.h
+	"cpython/traceback.h"
+
+1647429314 c:\python\include\cpython\traceback.h
+
+1647429314 c:\python\include\sliceobject.h
+
+1647429314 c:\python\include\cellobject.h
+
+1647429314 c:\python\include\iterobject.h
+
+1647429314 c:\python\include\cpython\initconfig.h
+
+1647429314 c:\python\include\genobject.h
+	"pystate.h"
+	"abstract.h"
+
+1647429314 c:\python\include\pystate.h
+	"cpython/pystate.h"
+
+1647429314 c:\python\include\cpython\pystate.h
+
+1647429314 c:\python\include\abstract.h
+	"cpython/abstract.h"
+
+1647429314 c:\python\include\cpython\abstract.h
+
+1647429314 c:\python\include\descrobject.h
+
+1647429314 c:\python\include\genericaliasobject.h
+
+1647429314 c:\python\include\warnings.h
+
+1647429314 c:\python\include\weakrefobject.h
+
+1647429314 c:\python\include\structseq.h
+
+1647429314 c:\python\include\namespaceobject.h
+
+1647429314 c:\python\include\cpython\picklebufobject.h
+
+1647429314 c:\python\include\cpython\pytime.h
+
+1647429314 c:\python\include\codecs.h
+
+1647429314 c:\python\include\pyerrors.h
+	<stdarg.h>
+	"cpython/pyerrors.h"
+
+1647429314 c:\python\include\cpython\pyerrors.h
+
+1647429314 c:\python\include\pythread.h
+	<pthread.h>
+
+1647429314 c:\python\include\context.h
+
+1647429314 c:\python\include\modsupport.h
+	<stdarg.h>
+
+1647429314 c:\python\include\compile.h
+	"cpython/compile.h"
+
+1647429314 c:\python\include\cpython\compile.h
+
+1647429314 c:\python\include\pythonrun.h
+	"cpython/pythonrun.h"
+
+1647429314 c:\python\include\cpython\pythonrun.h
+
+1647429314 c:\python\include\pylifecycle.h
+	"cpython/pylifecycle.h"
+
+1647429314 c:\python\include\cpython\pylifecycle.h
+
+1647429314 c:\python\include\ceval.h
+	"cpython/ceval.h"
+
+1647429314 c:\python\include\cpython\ceval.h
+
+1647429314 c:\python\include\sysmodule.h
+	"cpython/sysmodule.h"
+
+1647429314 c:\python\include\cpython\sysmodule.h
+
+1647429314 c:\python\include\osmodule.h
+
+1647429314 c:\python\include\intrcheck.h
+
+1647429314 c:\python\include\import.h
+	"cpython/import.h"
+
+1647429314 c:\python\include\cpython\import.h
+
+1647429314 c:\python\include\bltinmodule.h
+
+1647429314 c:\python\include\eval.h
+
+1647429314 c:\python\include\cpython\pyctype.h
+
+1647429314 c:\python\include\pystrtod.h
+
+1647429314 c:\python\include\pystrcmp.h
+
+1647429314 c:\python\include\fileutils.h
+	"cpython/fileutils.h"
+
+1647429314 c:\python\include\cpython\fileutils.h
+
+1647429314 c:\python\include\cpython\pyfpe.h
+
+1647429314 c:\python\include\tracemalloc.h
+
