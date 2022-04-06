@@ -49,7 +49,7 @@
 
  int main()
  {
-//     main1();
+ //    main1();
         main2();
         return EXIT_SUCCESS;
  }

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649242004 source:c:\samples\bpe-10\dynamicarrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -4,28 +4,34 @@
 #define BOOLEAN int
 #define FALSE 0
 
-int main()
+void counting(unsigned *nc, unsigned *nw, unsigned *nl)
 {
     char c;
-    unsigned nc,nw,nl;
     BOOLEAN isInside=FALSE;
 
-    nc=nw=nl=0;
+    *nc=*nw=*nl=0;
 
     while((c=getchar())!=EOF) {  // ^Z===EOF
-        nc++;
+        (*nc)++;
         if (c=='\n'){
-            ++nl;
+            ++*nl;
         }
         if (c=='\n' || c==' ' || c=='\t'){
             isInside = FALSE;
         }else if (!isInside){
             isInside = !FALSE;
-            nw++;
+            (*nw)++;
         }
     }
+}
 
-    printf("Chars: %u, Words: %u, Lines: %u\n",nc,nw,nl);
+int main(int argc, char *argv[])
+{
+    unsigned nl,nw,nc;
+
+    counting(&nc,&nw,&nl);
+    printf("%u\t%u\t%u\n",nl,nw,nc);
 
     return 0;
+
 }
