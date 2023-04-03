@@ -3,10 +3,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//#include <locale>
 #include <windows.h>
 
-#define SIZE 5
+#define SIZE            5
+#define MAX_SIZE    1000
+#define DELIM         ","
 
 struct TTStudent {
     unsigned fnom;
@@ -19,5 +20,7 @@ typedef struct TTStudent TStudent;
 TStudent input();
 void output(TStudent student);
 void writeToFile(char *fname,TStudent student);
+TStudent readFromFile(char *fname);
+TStudent parseStudent(char *buff);
 
 #endif // STUDENT_H_INCLUDED

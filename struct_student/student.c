@@ -49,3 +49,48 @@ void writeToFile(char *fname,TStudent student)
 
     fclose(f);
 }
+TStudent readFromFile(char *fname)
+{
+     FILE *f;
+     char buff[MAX_SIZE];
+
+    if((f=fopen(fname,"r"))==NULL){
+        perror("open file error: ");
+        exit(EXIT_FAILURE);
+    }
+
+    if(fgets(buff,MAX_SIZE,f)==NULL){
+        perror("reading error: ");
+        fclose(f);
+        exit(EXIT_FAILURE);
+    }
+    fclose(f);
+    puts(buff);
+    return parseStudent(buff);
+}
+
+TStudent parseStudent(char *buff)
+{
+    TStudent student;
+    char *token;
+
+    if((token=strtok(buff,DELIM))==NULL){
+        perror("token error: ");
+        exit(EXIT_FAILURE);
+    }
+    student.fnom = atoi(token);
+
+    if((token=strtok(NULL,DELIM))==NULL){
+        perror("token error2: ");
+        exit(EXIT_FAILURE);
+    }
+    strcpy(student.name,token);
+
+    if((token=strtok(NULL,DELIM))==NULL){
+        perror("token error3: ");
+        exit(EXIT_FAILURE);
+    }
+    student.avmark = atof(token);
+
+    return student;
+}
