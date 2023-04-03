@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 #include <windows.h>
 
 #define SIZE            5
@@ -24,5 +25,8 @@ void writeToFile(char *fname,TStudent student);
 TStudent readFromFile(char *fname);
 TStudent parseStudent(char *buff);
 unsigned countStudents(char *fname);
+unsigned readGroup(char *fname,TStudent *group,unsigned len);
+bool readStudent(FILE *f, TStudent *student);
+void outputGroup(TStudent *group, unsigned len);
 
 #endif // STUDENT_H_INCLUDED

@@ -120,3 +120,35 @@ unsigned countStudents(char *fname)
         count++;
     }
 }
+unsigned readGroup(char *fname,TStudent *group,unsigned len)
+{
+     FILE *f;
+     unsigned count;
+
+    if((f=fopen(fname,"r"))==NULL){
+        perror("open file error: ");
+        return 0;
+    }
+
+    for(count=0;count<len && readStudent(f,group+count);++count)
+        ;
+
+    fclose(f);
+    return count;
+}
+bool readStudent(FILE *f, TStudent *student)
+{
+    char buff[MAX_SIZE];
+
+    if(fgets(buff,MAX_SIZE,f)==NULL){
+        perror("reading error: ");
+        return false;
+    }
+    *student = parseStudent(buff);
+    return true;
+}
+void outputGroup(TStudent *group, unsigned len)
+{
+    for(int i=0;i<len;++i)
+        output(group[i]);
+}
