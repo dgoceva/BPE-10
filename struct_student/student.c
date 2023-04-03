@@ -94,3 +94,29 @@ TStudent parseStudent(char *buff)
 
     return student;
 }
+unsigned countStudents(char *fname)
+{
+     FILE *f;
+     char buff[MAX_SIZE];
+     unsigned count=0;
+
+    if((f=fopen(fname,"r"))==NULL){
+        perror("open file error: ");
+        exit(EXIT_FAILURE);
+    }
+
+    while(true){
+        if(fgets(buff,MAX_SIZE,f)==NULL){
+            if(!feof(f)){
+                perror("reading error: ");
+                fclose(f);
+                exit(EXIT_FAILURE);
+            }
+            else {
+                fclose(f);
+                return count;
+            }
+        }
+        count++;
+    }
+}

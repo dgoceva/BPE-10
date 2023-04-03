@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <windows.h>
 
 #define SIZE            5
@@ -22,5 +23,6 @@ void output(TStudent student);
 void writeToFile(char *fname,TStudent student);
 TStudent readFromFile(char *fname);
 TStudent parseStudent(char *buff);
+unsigned countStudents(char *fname);
 
 #endif // STUDENT_H_INCLUDED

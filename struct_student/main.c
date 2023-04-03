@@ -10,6 +10,7 @@ int main()
 //    writeToFile("students.csv",student);
     student = readFromFile("students.csv");
     output(student);
+    printf("%u\n",countStudents("students.csv"));
  //   printf("Hello world!\n");
     return 0;
 }
