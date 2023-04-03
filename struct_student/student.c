@@ -35,3 +35,17 @@ void output(TStudent student)
 {
     printf("(%u, %s, %g)\n",student.fnom,student.name,student.avmark);
 }
+
+void writeToFile(char *fname,TStudent student)
+{
+    FILE *f;
+
+    if((f=fopen(fname,"w"))==NULL){
+        perror(NULL);
+        exit(EXIT_FAILURE);
+    }
+
+    fprintf(f,"%u,%s,%g\n",student.fnom,student.name,student.avmark);
+
+    fclose(f);
+}

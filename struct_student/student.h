@@ -18,5 +18,6 @@ typedef struct TTStudent TStudent;
 
 TStudent input();
 void output(TStudent student);
+void writeToFile(char *fname,TStudent student);
 
 #endif // STUDENT_H_INCLUDED
