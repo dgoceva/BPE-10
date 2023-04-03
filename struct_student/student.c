@@ -40,7 +40,7 @@ void writeToFile(char *fname,TStudent student)
 {
     FILE *f;
 
-    if((f=fopen(fname,"w"))==NULL){
+    if((f=fopen(fname,"a"))==NULL){
         perror(NULL);
         exit(EXIT_FAILURE);
     }
