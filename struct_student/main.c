@@ -25,6 +25,8 @@ int main()
     }
     real_len = readGroup("students.csv",group,len);
     outputGroup(group,real_len);
+    printf("Average Mark: %.3g\n",averageGroupMark(group,real_len));
+    output(minGroupMark(group,real_len));
 
     free(group);
  //   printf("Hello world!\n");

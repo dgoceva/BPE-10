@@ -28,5 +28,7 @@ unsigned countStudents(char *fname);
 unsigned readGroup(char *fname,TStudent *group,unsigned len);
 bool readStudent(FILE *f, TStudent *student);
 void outputGroup(TStudent *group, unsigned len);
+float averageGroupMark(TStudent *group, unsigned len);
+TStudent minGroupMark(TStudent *group, unsigned len);
 
 #endif // STUDENT_H_INCLUDED

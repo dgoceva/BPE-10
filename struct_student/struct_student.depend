@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1680517775 source:c:\samples\bpe-10\struct_student\main.c
+1680518350 source:c:\samples\bpe-10\struct_student\main.c
 	"student.h"
 
-1680517792 c:\samples\bpe-10\struct_student\student.h
+1680518478 c:\samples\bpe-10\struct_student\student.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
 	<string.h>
 	<windows.h>
 
-1680516266 source:c:\samples\bpe-10\struct_student\student.c
+1680518567 source:c:\samples\bpe-10\struct_student\student.c
 	"student.h"
 

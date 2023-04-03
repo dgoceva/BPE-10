@@ -152,3 +152,22 @@ void outputGroup(TStudent *group, unsigned len)
     for(int i=0;i<len;++i)
         output(group[i]);
 }
+float averageGroupMark(TStudent *group, unsigned len)
+{
+    float sum=0;
+
+    for(int i=0;i<len;++i)
+        sum += group[i].avmark;
+
+    return (len) ? sum/len : 0;
+}
+TStudent minGroupMark(TStudent *group, unsigned len)
+{
+    int minIndex=0;
+
+    for(int i=1;i<len;++i)
+        if(group[i].avmark<group[minIndex].avmark)
+            minIndex = i;
+
+    return group[minIndex];
+}
