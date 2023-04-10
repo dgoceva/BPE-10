@@ -1,0 +1,10 @@
+Ivan Ivanov,44.33
+Stoyan Petrov,22.33
+Ivan Ivanov,22.11
+Petyr Petrov,22.22
+Stoyan Ivanov,22.22
+Ivan Ivanov,21.33
+Petyr Petrov,45.32
+Lili Ivanova,22.22
+Stoyan Petrov,52.33
+Koko Iliev,33.33

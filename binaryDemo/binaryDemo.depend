@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1681123318 source:c:\samples\bpe-10\binarydemo\main.c
+	"pet.h"
+
+1681123366 c:\samples\bpe-10\binarydemo\pet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1681123401 source:c:\samples\bpe-10\binarydemo\pet.c
+	"pet.h"
+

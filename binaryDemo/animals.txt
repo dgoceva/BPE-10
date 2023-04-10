@@ -1,0 +1,5 @@
+Ivan Ivanov,A11111B,21.33
+Petyr Petrov,C22222D,45.32
+Lili Ivanova,E33333F,22.22
+Stoyan Petrov,X12345Y,52.33
+Koko Iliev,E65432H,33.33
